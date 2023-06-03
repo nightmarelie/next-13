@@ -23,6 +23,8 @@
     "typescript": "5.0.4"
   },
   "devDependencies": {
-    "jest-mock-extended": "^3.0.4"
+    "@testing-library/user-event": "^14.4.3",
+    "jest-mock-extended": "^3.0.4",
+    "jest-preview": "^0.3.1"
   }
 }
