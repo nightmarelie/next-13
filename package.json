@@ -23,6 +23,7 @@
     "typescript": "5.0.4"
   },
   "devDependencies": {
+    "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",
     "jest-mock-extended": "^3.0.4",
     "jest-preview": "^0.3.1"
