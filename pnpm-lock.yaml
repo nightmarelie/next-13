@@ -48,6 +48,9 @@ devDependencies:
   '@testing-library/user-event':
     specifier: ^14.4.3
     version: 14.4.3(@testing-library/dom@9.3.0)
+  jest:
+    specifier: ^29.5.0
+    version: 29.5.0(@types/node@20.2.5)
   jest-mock-extended:
     specifier: ^3.0.4
     version: 3.0.4(jest@29.5.0)(typescript@5.0.4)
