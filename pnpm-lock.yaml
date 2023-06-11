@@ -54,6 +54,9 @@ devDependencies:
   jest:
     specifier: ^29.5.0
     version: 29.5.0(@types/node@20.2.5)
+  jest-date-mock:
+    specifier: ^1.0.8
+    version: 1.0.8
   jest-mock:
     specifier: ^29.5.0
     version: 29.5.0
@@ -3713,6 +3716,10 @@ packages:
       strip-json-comments: 3.1.1
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /jest-date-mock@1.0.8:
+    resolution: {integrity: sha512-0Lyp+z9xvuNmLbK+5N6FOhSiBeux05Lp5bbveFBmYo40Aggl2wwxFoIrZ+rOWC8nDNcLeBoDd2miQdEDSf3iQw==}
     dev: true
 
   /jest-diff@29.5.0:
