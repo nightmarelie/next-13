@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "turbo": "next dev --turbo",
+    "preview": "next build && next start",
     "postinstall": "prisma generate"
   },
   "dependencies": {
@@ -28,6 +29,7 @@
     "typescript": "5.0.4"
   },
   "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^4.0.2",
     "@testing-library/cypress": "^9.0.0",
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",
@@ -37,6 +39,8 @@
     "jest-mock": "^29.5.0",
     "jest-mock-extended": "^3.0.4",
     "jest-preview": "^0.3.1",
+    "prettier": "^3.0.0",
+    "prettier-plugin-tailwindcss": "^0.3.0",
     "prisma": "^4.16.2"
   }
 }
